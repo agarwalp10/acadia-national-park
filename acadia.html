@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="acadia.css">
+<title>Acadia National Park</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-1 fixed-top" style="background-color: rgb(143, 99, 18);">
+        <div class="container">
+            <a href="#" class="navbar-brand"><h1>Acadia</h1></a>
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#gallery" class="nav-link">Photo Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#dates" class="nav-link">Dates</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#booking" class="nav-link">Booking</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#location" class="nav-link">Location</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section - adding in video-->
+    <section class="main-video">
+        <!-- Creating overlay -->
+        <div class="main_overlay"></div>
+
+        <!-- Video -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" class="main_video">
+            <source src="images/IMG_1920.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Title -->
+        <div class="layer_content h-100 container-xxl position-relative">
+            <div class="layer-two d-flex h-100 align-items-center">
+                <div class="text-white">
+                    <h1 class="fw-bold mb-4 display-3">Beautiful Fall Colors!</h1>
+                    <p class="lead">Visit Acadia National Park during Peak Fall Foliage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section -->
+    <section id="about" class="section-padding">
+        <div class="container align-items-center">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="images/Acadia-main-picture.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5 pt-3 pt-m-0 align-items-center">
+                    <div class="about-text align-items-center">
+                        <h2>About</h2>
+                        <p>Acadia National Park undergoes stunning fall colors each October. The park has breathtaking views, 
+                            particularly during the fall foliage season. From the iconic Cadaliac Mountain, providing panaramic
+                            views of its landscape, to its beautiful reflecting lakes. The park offers immersive expierences amid the
+                            vibrant foliage, making Acadia National Park a must-visit destination.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Panel -->
+    <section id="gallery" class="bg-dark text-white lg-10 text-center text-sm-start shadow-lg">
+        <div class="container p-5">
+            <h2 class="text-center p-5">Acadia Gallery</h2>
+            <div class="border row p-4">
+                <div class="col-sm-12 col-md-6 col-lg-3 p-3 images">
+                    <img src="images/acadia-hike.jpg" alt="hiking trail" class=" img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 p-3 images">
+                    <img src="images/acadia-mtn.jpg" alt="mtn view" class=" img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 p-3 images">
+                    <img src="images/acadia-pond.jpg" alt="mtn view" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 p-3 images">
+                    <img src="images/acadia-pond2.jpg" alt="mtn view" class="img-fluid">
+                </div>
+            </div>            
+        </div>
+    </section>
+    
+    <!-- Dates and Calendar Section x2 -->
+    <section id="dates" class="dates">
+        <div class="container align-items-center">
+            <div class="row info-1 align-items-center">
+                <div class="col-md-6">
+                    <div class="text-dates">
+                        <h2>Peak Dates</h2>
+                        <p>Best time to visit Acadia National Park is between October 14th to 22nd, but you can't go wrong with 
+                            any other date in october. Below is a link to book your transportation and hotels to get the best 
+                            expierences.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <img src="images/Acadia-peak-calender.jpg" alt="calendar" class="w-100">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Location/ booking -->
+    <section id="location" class="location bg-dark text-white">
+        <div id="booking" class="container">
+            <div class="row info-2">
+                <div class="col-md-6">
+                    <h6 class="title text-center">Acadia National Park, Maine, USA</h6>
+                    <img src="images/acadia-map.png" alt="map" class="w-100">
+                </div>
+                <div class="col-md-6 text-center pt-3 pt-m-0 button-container">
+                    <a href="https://www.google.com/travel/" class="btn btn-outline-light button">Book Your Travel Accommodations</a>
+                </div> 
+            </div>
+        </div>
+    </section>
+   
+
+
+    <!-- footer -->
+    <footer class="bottom text-light text-light text-center p-2" style="background-color: rgb(143, 99, 18);">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="foothead">Social</div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fab fa-facebook" style="color: #5fab6b;"></i> Facebook</p></a>
+                </div>
+               <div class="media">
+                    <a href="#"><p class="tiny"><i class="fab fa-twitter-square" style="color: #5fab6b;"></i> Twitter</p></a>
+                </div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fab fa-youtube" style="color: #5fab6b;"></i> Youtube</p></a>
+                </div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fab fa-instagram" style="color: #5fab6b;"></i> Instagram</p></a>
+                </div>  
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="foothead">Info</div>
+                <div class="address">
+                    <p class="tiny">Acadia National Park, Maine, USA</p>
+                </div>
+                <div class="email">
+                    <p class="tiny">acadia@nationalpark.com</p>
+                </div>
+                <div class="phone">
+                    <p class="tiny">Call Us: 708-555-4545</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="lead text-center p-3">&copy; 2021 Pankaj Agarwal</p>
+        </div>
+        
+    </footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

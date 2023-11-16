@@ -1,0 +1,118 @@
+
+
+/* Main - Video */
+.main-video {
+    position: relative;
+    height: 100vh;
+    background-color: var(--primary-color);
+    overflow: hidden; 
+}
+
+.main_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.main_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--primary-color);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.layer_content{
+    z-index: 1;
+}
+
+.layer-two {
+    justify-content: flex-end;
+}
+
+
+
+/* About Section */
+
+.section-padding {
+    padding: 100px 0;
+}
+
+/* Gallery */
+.img-fluid {
+    height: 100%;
+}
+
+/* dates and calendar Section */
+.dates .text-dates {
+    padding: 50px 0;
+}
+
+.dates h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.dates p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+.dates .info-1 {
+    padding: 100px 0;
+}
+
+/* Location and booking section */
+.location .text-location {
+    padding: 134px 0;
+}
+
+.location h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.location p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+.location .info-2 {
+    padding: 100px 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* footer */
+.tiny {
+    margin: 0px;
+}
+
+.foothead {
+    font-size: 2em;    
+}
+
+.title {
+    font-size: 2rem;
+}
+
+
